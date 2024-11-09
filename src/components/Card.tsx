@@ -18,10 +18,6 @@ const Card: React.FC<propsType> = ({ title, desc, img, tags }) => {
                     width={350}
                     height={350}
                     alt={title}
-                    // width={800} // Width in pixels
-                    // height={600} // Height in pixels
-                    // sizes="(max-width: 768px) 400px, 800px" // Responsive sizes
-                    // priority // Load this image first
                 />
             </div>
             <div className='px-5 py-2 space-y-4'>
